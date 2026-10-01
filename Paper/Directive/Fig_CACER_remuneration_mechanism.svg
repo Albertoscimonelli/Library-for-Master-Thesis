@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="1322" viewBox="0 0 840 1322" role="img">
+<title>CACER remuneration mechanism decision tree</title>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 z" fill="#94a3b8"/></marker></defs>
+<rect width="840" height="1322" fill="white"/>
+<rect x="60" y="18" width="720" height="88" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="5,4"/>
+<text x="76" y="40" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0f172a" font-weight="bold" text-anchor="start">Access requirements (all mandatory)</text>
+<text x="76" y="59" font-family="Helvetica, Arial, sans-serif" font-size="10.8" fill="#334155" font-weight="normal" text-anchor="start">REC established under Art. 31, Legislative Decree 199/2021  ·  new RES plants ≤ 1 MW each (existing plants admitted</text>
+<text x="76" y="74" font-family="Helvetica, Arial, sans-serif" font-size="10.8" fill="#334155" font-weight="normal" text-anchor="start">within 30% of community capacity, not incentivised)  ·  injection and withdrawal points under the same primary substation</text>
+<text x="76" y="89" font-family="Helvetica, Arial, sans-serif" font-size="10.8" fill="#334155" font-weight="normal" text-anchor="start">scheme open until 5 GW of incentivised capacity is reached, and in any case no later than 31 December 2027</text>
+<path d="M 420 106 L 420 126" stroke="#94a3b8" stroke-width="1.4" fill="none" marker-end="url(#arr)"/>
+<rect x="150" y="128" width="540" height="88" rx="10" fill="#f8fafc" stroke="#1d4ed8" stroke-width="1.6"/>
+<text x="166" y="147" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#64748b" font-weight="bold" text-anchor="start" letter-spacing="0.08em">DISCRIMINANT 1 · CAPITAL GRANT (PNRR M2C2 INV. 1.2)</text>
+<text x="166" y="166" font-family="Helvetica, Arial, sans-serif" font-size="13.5" fill="#1d4ed8" font-weight="bold" text-anchor="start">Is the municipality hosting the plants below 50,000 inhabitants?</text>
+<text x="166" y="184" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#64748b" font-weight="normal" text-anchor="start">Original threshold in MD 414/2023: 5,000 inhabitants — raised to 50,000 by the 2025 amendment</text>
+<text x="166" y="198" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#64748b" font-weight="normal" text-anchor="start">(2.2 bn € fund · GSE application window 21 Jul – 30 Nov 2025, now closed)</text>
+<path d="M 340 216 L 340 233.0 L 230 233.0 L 230 250" stroke="#94a3b8" stroke-width="1.4" fill="none" marker-end="url(#arr)"/>
+<path d="M 500 216 L 500 233.0 L 610 233.0 L 610 250" stroke="#94a3b8" stroke-width="1.4" fill="none" marker-end="url(#arr)"/>
+<rect x="216.5" y="253" width="27.0" height="18" rx="9" fill="#eef2f7" stroke="#94a3b8"/>
+<text x="230" y="265.5" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#0f172a" font-weight="bold" text-anchor="middle">NO</text>
+<rect x="593.25" y="253" width="33.5" height="18" rx="9" fill="#eef2f7" stroke="#94a3b8"/>
+<text x="610" y="265.5" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#0f172a" font-weight="bold" text-anchor="middle">YES</text>
+<rect x="80" y="280" width="300" height="66" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+<text x="230" y="302" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#0f172a" font-weight="bold" text-anchor="middle">PNRR grant not accessible</text>
+<text x="230" y="318" font-family="Helvetica, Arial, sans-serif" font-size="10.8" fill="#64748b" font-weight="normal" text-anchor="middle">premium tariff only</text>
+<rect x="188" y="325" width="75.0" height="16" rx="5" fill="#e2e8f0" stroke="#94a3b8"/>
+<text x="225.5" y="337" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#0f172a" font-weight="bold" text-anchor="middle">→ BRANCH A</text>
+<rect x="460" y="280" width="300" height="96" rx="10" fill="#f8fafc" stroke="#1d4ed8" stroke-width="1.6"/>
+<text x="476" y="299" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#64748b" font-weight="bold" text-anchor="start" letter-spacing="0.08em">DISCRIMINANT 2 · REC'S CHOICE</text>
+<text x="476" y="317" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1d4ed8" font-weight="bold" text-anchor="start">Apply for the grant (≤ 40% of CAPEX)?</text>
+<rect x="526.5" y="335" width="27.0" height="18" rx="9" fill="#eef2f7" stroke="#94a3b8"/>
+<text x="540" y="347.5" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#0f172a" font-weight="bold" text-anchor="middle">NO</text>
+<rect x="516" y="355" width="75.0" height="16" rx="5" fill="#e2e8f0" stroke="#94a3b8"/>
+<text x="553.5" y="367" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#0f172a" font-weight="bold" text-anchor="middle">→ BRANCH A</text>
+<rect x="663.25" y="335" width="33.5" height="18" rx="9" fill="#eef2f7" stroke="#94a3b8"/>
+<text x="680" y="347.5" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#0f172a" font-weight="bold" text-anchor="middle">YES</text>
+<rect x="656" y="355" width="75.0" height="16" rx="5" fill="#e2e8f0" stroke="#94a3b8"/>
+<text x="693.5" y="367" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#0f172a" font-weight="bold" text-anchor="middle">→ BRANCH B</text>
+<path d="M 230 346 L 230 372.0 L 230 372.0 L 230 398" stroke="#94a3b8" stroke-width="1.4" fill="none" marker-end="url(#arr)"/>
+<path d="M 610 376 L 610 387.0 L 610 387.0 L 610 398" stroke="#94a3b8" stroke-width="1.4" fill="none" marker-end="url(#arr)"/>
+<rect x="60" y="400" width="340" height="132" rx="10" fill="#eef2f7" stroke="#94a3b8" stroke-width="1"/>
+<text x="76" y="422" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0f172a" font-weight="bold" text-anchor="start">BRANCH A · Premium tariff only</text>
+<text x="76" y="448" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#334155" font-weight="normal" text-anchor="start">Reduction factor  F = 0  (no tariff reduction)</text>
+<text x="76" y="468" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#334155" font-weight="normal" text-anchor="start">Excess-quota threshold  ϑ = 55%</text>
+<rect x="440" y="400" width="340" height="132" rx="10" fill="#eef2f7" stroke="#94a3b8" stroke-width="1"/>
+<text x="456" y="422" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0f172a" font-weight="bold" text-anchor="start">BRANCH B · PNRR grant + premium tariff</text>
+<text x="456" y="444" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#334155" font-weight="normal" text-anchor="start">Grant intensity g ≤ 40% of CAPEX  →  F = 1.25 · g  (max 0.50)</text>
+<text x="456" y="462" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#334155" font-weight="normal" text-anchor="start">Excess-quota threshold  ϑ = 45%</text>
+<text x="456" y="484" font-family="Helvetica, Arial, sans-serif" font-size="10.2" fill="#64748b" font-weight="normal" text-anchor="start">⚠ F is NOT applied to withdrawal points of territorial/local</text>
+<text x="456" y="498" font-family="Helvetica, Arial, sans-serif" font-size="10.2" fill="#64748b" font-weight="normal" text-anchor="start">authorities, religious, third-sector and environmental bodies.</text>
+<text x="456" y="512" font-family="Helvetica, Arial, sans-serif" font-size="10.2" fill="#64748b" font-weight="bold" text-anchor="start">Natural persons are NOT exempt.</text>
+<text x="420.0" y="566" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#64748b" font-weight="bold" text-anchor="middle" letter-spacing="0.12em">TARIFF PARAMETERS — COMMON TO BOTH BRANCHES</text>
+<rect x="60" y="580" width="340" height="152" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+<text x="76" y="602" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#0f172a" font-weight="bold" text-anchor="start">Discriminant 3 · Plant size (per plant)</text>
+<text x="76" y="624" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#64748b" font-weight="bold" text-anchor="start">Size band</text>
+<text x="230" y="624" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#64748b" font-weight="bold" text-anchor="start">TP base</text>
+<text x="310" y="624" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#64748b" font-weight="bold" text-anchor="start">CAP</text>
+<line x1="76" y1="630" x2="384" y2="630" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="76" y="648" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#334155" font-weight="normal" text-anchor="start">≤ 200 kW</text>
+<text x="230" y="648" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#334155" font-weight="normal" text-anchor="start">80 €/MWh</text>
+<text x="310" y="648" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#334155" font-weight="normal" text-anchor="start">120 €/MWh</text>
+<text x="76" y="666" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#334155" font-weight="normal" text-anchor="start">200 – 600 kW</text>
+<text x="230" y="666" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#334155" font-weight="normal" text-anchor="start">70 €/MWh</text>
+<text x="310" y="666" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#334155" font-weight="normal" text-anchor="start">110 €/MWh</text>
+<text x="76" y="684" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#334155" font-weight="normal" text-anchor="start">> 600 kW</text>
+<text x="230" y="684" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#334155" font-weight="normal" text-anchor="start">60 €/MWh</text>
+<text x="310" y="684" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#334155" font-weight="normal" text-anchor="start">100 €/MWh</text>
+<text x="76" y="720" font-family="Helvetica, Arial, sans-serif" font-size="9.8" fill="#64748b" font-weight="normal" text-anchor="start">Artificial fragmentation prohibited (single-plant reclassification)</text>
+<rect x="440" y="580" width="340" height="152" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+<text x="456" y="602" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#0f172a" font-weight="bold" text-anchor="start">Discriminant 4 · Location (PV plants only)</text>
+<text x="456" y="628" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#334155" font-weight="normal" text-anchor="start">North</text>
+<text x="716" y="628" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="bold" text-anchor="end">+10 €/MWh</text>
+<text x="456" y="648" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#334155" font-weight="normal" text-anchor="start">Centre</text>
+<text x="716" y="648" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="bold" text-anchor="end">+4 €/MWh</text>
+<text x="456" y="668" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#334155" font-weight="normal" text-anchor="start">South and islands</text>
+<text x="716" y="668" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="bold" text-anchor="end">0</text>
+<text x="500" y="660" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#334155" font-weight="normal" text-anchor="start"></text>
+<text x="456" y="688" font-family="Helvetica, Arial, sans-serif" font-size="9.8" fill="#64748b" font-weight="normal" text-anchor="start">Centre = Lazio, Marche, Tuscany, Umbria, Abruzzo</text>
+<line x1="456" y1="614" x2="764" y2="614" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="456" y="706" font-family="Helvetica, Arial, sans-serif" font-size="9.8" fill="#64748b" font-weight="normal" text-anchor="start">FC is added outside the min[·] operator:</text>
+<text x="456" y="720" font-family="Helvetica, Arial, sans-serif" font-size="9.8" fill="#64748b" font-weight="normal" text-anchor="start">the resulting tariff may exceed the CAP</text>
+<path d="M 420 736 L 420 756" stroke="#94a3b8" stroke-width="1.4" fill="none" marker-end="url(#arr)"/>
+<rect x="100" y="758" width="640" height="70" rx="10" fill="#eef2f7" stroke="#94a3b8" stroke-width="1"/>
+<text x="420.0" y="788" font-family="Consolas, Menlo, monospace" font-size="13" fill="#0f172a" font-weight="bold" text-anchor="middle">TIP_h = { min[ CAP ; TP_base + max(0 ; 180 − Pz_h) ] + FC_zonal } × (1 − F)</text>
+<text x="420.0" y="810" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#64748b" font-weight="normal" text-anchor="middle">€/MWh · hourly (varies with the zonal price Pz) · right granted for 20 years</text>
+<text x="420.0" y="854" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#64748b" font-weight="bold" text-anchor="middle" letter-spacing="0.12em">THREE PARALLEL REVENUE STREAMS</text>
+<rect x="60" y="868" width="232" height="168" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1"/>
+<text x="74" y="890" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#1d4ed8" font-weight="bold" text-anchor="start">STREAM 1 · GSE INCENTIVE (C_ACI)</text>
+<text x="74" y="912" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#334155" font-weight="normal" text-anchor="start">C_ACI = Σ_h TIP_h · E_ACI,h</text>
+<text x="74" y="929" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#334155" font-weight="normal" text-anchor="start">E_ACI,h = hourly min(injected ;</text>
+<text x="74" y="946" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#334155" font-weight="normal" text-anchor="start">withdrawn) — incentivised plants</text>
+<text x="74" y="963" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#334155" font-weight="normal" text-anchor="start">only, same primary substation.</text>
+<text x="74" y="980" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#334155" font-weight="normal" text-anchor="start"></text>
+<text x="74" y="997" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#334155" font-weight="normal" text-anchor="start">Monthly advances during the year,</text>
+<text x="74" y="1014" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#334155" font-weight="normal" text-anchor="start">settlement on metered data in n+1.</text>
+<rect x="304" y="868" width="232" height="168" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1"/>
+<text x="318" y="890" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#1d4ed8" font-weight="bold" text-anchor="start">STREAM 2 · ARERA CONTRIB. (CACV)</text>
+<text x="318" y="912" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#334155" font-weight="normal" text-anchor="start">CACV = TRAS_E × E_ACV</text>
+<text x="318" y="929" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#334155" font-weight="normal" text-anchor="start">(≈ 8–10 €/MWh)</text>
+<text x="318" y="946" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#334155" font-weight="normal" text-anchor="start">Always granted, no conditions.</text>
+<text x="318" y="963" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#334155" font-weight="normal" text-anchor="start">RECs: transmission component only</text>
+<text x="318" y="980" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#334155" font-weight="normal" text-anchor="start">— no distribution component,</text>
+<text x="318" y="997" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#334155" font-weight="normal" text-anchor="start">no avoided-losses term.</text>
+<text x="318" y="1014" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#334155" font-weight="normal" text-anchor="start">E_ACV counts all plants.</text>
+<rect x="548" y="868" width="232" height="168" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1"/>
+<text x="562" y="890" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#1d4ed8" font-weight="bold" text-anchor="start">STREAM 3 · SALE OF INJECTED ENERGY</text>
+<text x="562" y="912" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#334155" font-weight="normal" text-anchor="start">All injected energy is sold on</text>
+<text x="562" y="929" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#334155" font-weight="normal" text-anchor="start">the market or via RID (GSE</text>
+<text x="562" y="946" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#334155" font-weight="normal" text-anchor="start">withdrawal) at the zonal price.</text>
+<text x="562" y="963" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#334155" font-weight="normal" text-anchor="start"></text>
+<text x="562" y="980" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#334155" font-weight="normal" text-anchor="start">Market revenue — it is not</text>
+<text x="562" y="997" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#334155" font-weight="normal" text-anchor="start">an incentive; accrues to the</text>
+<text x="562" y="1014" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#334155" font-weight="normal" text-anchor="start">producer/owner of the plant.</text>
+<path d="M 176 1038 L 176 1052" stroke="#94a3b8" stroke-width="1.4" fill="none"/>
+<path d="M 176 1052 L 420 1052 L 420 1066" stroke="#94a3b8" stroke-width="1.4" fill="none" marker-end="url(#arr)"/>
+<text x="300" y="1047" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#64748b" font-weight="normal" text-anchor="middle">stream ① only</text>
+<rect x="150" y="1070" width="540" height="66" rx="10" fill="#f8fafc" stroke="#1d4ed8" stroke-width="1.6"/>
+<text x="166" y="1089" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#64748b" font-weight="bold" text-anchor="start" letter-spacing="0.08em">ANNUAL CHECK · EXCESS QUOTA</text>
+<text x="166" y="1110" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1d4ed8" font-weight="bold" text-anchor="start">Does annual E_ACI / E_injected exceed ϑ ?   (ϑ = 55% branch A · 45% branch B)</text>
+<path d="M 340 1136 L 340 1151.0 L 230 1151.0 L 230 1166" stroke="#94a3b8" stroke-width="1.4" fill="none" marker-end="url(#arr)"/>
+<path d="M 500 1136 L 500 1151.0 L 610 1151.0 L 610 1166" stroke="#94a3b8" stroke-width="1.4" fill="none" marker-end="url(#arr)"/>
+<rect x="216.5" y="1169" width="27.0" height="18" rx="9" fill="#eef2f7" stroke="#94a3b8"/>
+<text x="230" y="1181.5" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#0f172a" font-weight="bold" text-anchor="middle">NO</text>
+<rect x="593.25" y="1169" width="33.5" height="18" rx="9" fill="#eef2f7" stroke="#94a3b8"/>
+<text x="610" y="1181.5" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#0f172a" font-weight="bold" text-anchor="middle">YES</text>
+<rect x="60" y="1196" width="340" height="78" rx="10" fill="#eef2f7" stroke="#94a3b8" stroke-width="1"/>
+<text x="76" y="1220" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#0f172a" font-weight="bold" text-anchor="start">Incentive fully unconstrained</text>
+<text x="76" y="1240" font-family="Helvetica, Arial, sans-serif" font-size="10.8" fill="#334155" font-weight="normal" text-anchor="start">Allocated among members according to the REC's</text>
+<text x="76" y="1256" font-family="Helvetica, Arial, sans-serif" font-size="10.8" fill="#334155" font-weight="normal" text-anchor="start">internal rules (statute / private-law contract).</text>
+<rect x="440" y="1196" width="340" height="78" rx="10" fill="#eef2f7" stroke="#94a3b8" stroke-width="1"/>
+<text x="456" y="1216" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#0f172a" font-weight="bold" text-anchor="start">Share within ϑ : freely allocable</text>
+<text x="456" y="1236" font-family="Helvetica, Arial, sans-serif" font-size="10.8" fill="#334155" font-weight="normal" text-anchor="start">Excess share (premio eccedentario): only to members</text>
+<text x="456" y="1252" font-family="Helvetica, Arial, sans-serif" font-size="10.8" fill="#334155" font-weight="normal" text-anchor="start">other than enterprises, or to social purposes benefiting</text>
+<text x="456" y="1268" font-family="Helvetica, Arial, sans-serif" font-size="10.8" fill="#334155" font-weight="normal" text-anchor="start">the territory where the plants are located.</text>
+<text x="420.0" y="1304" font-family="Helvetica, Arial, sans-serif" font-size="9.3" fill="#64748b" font-weight="normal" text-anchor="middle">Sources: Ministerial Decree 414/2023 (CACER Decree), as amended in 2025 · GSE Operating Rules · ARERA Resolution 727/2022/R/eel (TIAD) · Legislative Decree 199/2021</text>
+</svg>
