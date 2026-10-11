@@ -1,9 +1,9 @@
-# norbu2021 — Modeling Economic Sharing of Joint Assets in Community Energy Projects Under LV Network Constraints
+# norbu2021b — Modeling Economic Sharing of Joint Assets in Community Energy Projects Under LV Network Constraints
 
 - **File sorgente:** `Paper/Modeling Economic Sharing of Joint Assets in Community Energy Projects Under LV Network Constraints.pdf` (24 pagine; testo estraibile; Tab. 1–5 e Fig. 16–18 lette su immagine; Fig. 4–15 non ispezionate nei dettagli)
 - **Tipo:** articolo su rivista (IEEE Access, open access CC BY 4.0), 21 pagine di testo + bibliografia (pp. 21–24)
 - **Lettura:** integrale (pp. 1–21); bibliografia (pp. 21–24) letta solo per identificare i riferimenti citati nei claim, non riga per riga.
-- **Convenzioni:** pagine = indici di pagina del PDF (p. 1 = pag. rivista 112019). `[INFERENZA]` = mia valutazione. `[NON SPECIFICATO]` = informazione assente o ambigua.
+- **Convenzioni:** pagine = indici di pagina del PDF (p. 1 = pag. rivista 112019). `[INFERENZA]` = mia valutazione. `[NON SPECIFICATO]` = informazione assente o ambigua. Chiave `norbu2021b` = versione IEEE Access (agosto 2021, PV e batteria con vincoli di rete BT); `norbu2021a` = versione Applied Energy (febbraio 2021, turbina eolica e batteria, senza vincoli di rete; scheda separata).
 
 ## 1. Riferimento bibliografico
 Norbu, S.; Couraud, B.; Robu, V.; Andoni, M.; Flynn, D. (2021). *Modeling Economic Sharing of Joint Assets in Community Energy Projects Under LV Network Constraints.* IEEE Access, 9, 112019–112042. DOI 10.1109/ACCESS.2021.3103480. Ricevuto 15/07/2021, accettato 04/08/2021, pubblicato 09/08/2021. Heriot-Watt University (Edimburgo), Royal University of Bhutan, CWI e TU Delft. Finanziamento: EPSRC DTP (EP/R513040/1), CESI (EP/P001173/1), CEDRI (EP/R008655/1) e Innovate UK ReFLEX (progetto 104780) (p. 1). Dati: `[NON SPECIFICATO]` (nessuna dichiarazione di disponibilità; i dati di domanda provengono dal progetto Thames Valley Vision). Codice: `[NON SPECIFICATO]`.
