@@ -1,4 +1,4 @@
-# casalicchio2022 — From investment optimization to fair benefit distribution in renewable energy community modelling
+# casalicchio2022a — From investment optimization to fair benefit distribution in renewable energy community modelling
 
 - **File sorgente:** `Paper/From investment optimization to fair benefit distribution in renewable energy community modelling.pdf` (18 pagine; testo estraibile, ma Tab. 2–8, Eq. 12–14 e tutti i risultati sono in tabelle o figure: letti su immagine le pp. 9–16; i valori di Fig. 7, 9, 10, 13, 14, 15 sono letti da etichette o barre)
 - **Tipo:** articolo su rivista (Applied Energy, open access CC BY), 17 pagine di testo + 1 di bibliografia
