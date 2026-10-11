@@ -1,4 +1,4 @@
-# volpato2024 — A stochastic optimization procedure to design the fair aggregation of energy users in a Renewable Energy Community
+# volpato2024a — A stochastic optimization procedure to design the fair aggregation of energy users in a Renewable Energy Community
 
 - **File sorgente:** `Paper/A stochastic optimization procedure to design the fair aggregation of energy users in a Renewable Energy Community.pdf` (17 pagine, testo estraibile)
 - **Tipo:** articolo su rivista (Renewable Energy, Elsevier, open access)
