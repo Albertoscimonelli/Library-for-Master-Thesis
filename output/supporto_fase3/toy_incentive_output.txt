@@ -1,0 +1,37 @@
+annual energy of members 0-2: [6. 6. 6.]
+
+== reward dispersion at equal annual energy (members 0,1,2 differ only in synchronism) ==
+rule         R0(async)  R1(flat)  R2(sync)   R2/R0
+equal           3.992     3.992     3.992     1.00   (pie B=47.91, producer=23.95, sum=47.91)
+prop_annual     1.996     1.996     1.996     1.00   (pie B=47.91, producer=23.95, sum=47.91)
+prop_hourly     1.011     1.176     2.410     2.38   (pie B=47.91, producer=23.95, sum=47.91)
+progressive     1.168     1.369     2.610     2.23   (pie B=47.91, producer=23.95, sum=47.91)
+marginal        0.842     1.047     2.244     2.67   (pie B=47.91, producer=23.95, sum=47.91)
+shapley         0.903     1.071     2.219     2.46   (pie B=47.91, producer=25.16, sum=47.91)
+
+== internalisation ratio: member 0 moves q kWh from hour 19 to hour 12 ==
+(load of member 0 at h19 = 0.615 kWh; q=0.4)
+rule           dB     dR0    dR0/dB   (1/N=0.167)
+equal         0.400   0.033    0.083
+prop_annual   0.400   0.017    0.042
+prop_hourly   0.400   0.200    0.500
+progressive   0.400   0.200    0.500
+marginal      0.400   0.238    0.594
+shapley       0.400   0.200    0.500
+
+== same, but member 5 (largest daytime consumer, 30 kWh/day) moves q kWh from hour 18 to hour 12 ==
+equal         0.400   0.033    0.083
+prop_annual   0.400   0.083    0.208
+prop_hourly   0.400   0.200    0.500
+progressive   0.400   0.200    0.500
+marginal      0.400   0.218    0.544
+shapley       0.400   0.200    0.500
+
+== PV-scarce regime (3 kWp): member 2 INCREASES load by q at hour 12 (no shift; hour is generation-constrained) ==
+at h12: PV=3.000 kWh vs total load=5.418 kWh  -> generation-constrained hour: True
+equal        dB= 0.000  dR2=  0.000   (extra kWh consumed by member 2: 0.4)
+prop_annual  dB= 0.000  dR2=  0.053   (extra kWh consumed by member 2: 0.4)
+prop_hourly  dB= 0.000  dR2=  0.093   (extra kWh consumed by member 2: 0.4)
+progressive  dB= 0.000  dR2=  0.073   (extra kWh consumed by member 2: 0.4)
+marginal     dB= 0.000  dR2=  0.000   (extra kWh consumed by member 2: 0.4)
+shapley      dB= 0.000  dR2=  0.063   (extra kWh consumed by member 2: 0.4)

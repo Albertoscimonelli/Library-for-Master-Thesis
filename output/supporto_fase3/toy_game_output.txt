@@ -1,0 +1,8 @@
+== Experiment 1: producer share under Shapley and core as a function of PV size ==
+PV=  2 kWp  B=  14.05 kWh  PV/load= 0.20  Shapley producer share=0.733  least-core eps*= -0.0000
+PV=  5 kWp  B=  35.13 kWh  PV/load= 0.50  Shapley producer share=0.585  least-core eps*= -0.0000
+PV= 10 kWp  B=  47.87 kWh  PV/load= 1.00  Shapley producer share=0.525  least-core eps*= -0.7033
+PV= 20 kWp  B=  52.49 kWh  PV/load= 2.01  Shapley producer share=0.509  least-core eps*= -1.0769
+PV= 40 kWp  B=  55.33 kWh  PV/load= 4.02  Shapley producer share=0.500  least-core eps*= -1.2501
+PV= 80 kWp  B=  55.34 kWh  PV/load= 8.03  Shapley producer share=0.500  least-core eps*= -1.2527
+(eps* <= 0: core non vuoto; eps* = 0: nessuna allocazione strettamente interna al core. Il punto di least core restituito dall LP non e unico e non viene riportato.)
