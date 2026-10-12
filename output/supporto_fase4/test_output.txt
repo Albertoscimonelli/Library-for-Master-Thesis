@@ -1,0 +1,48 @@
+OK   T1 Shapley glove 1+2 = (2/3, 1/6, 1/6) [0.6667 0.1667 0.1667]
+OK   T1 nucleolo glove 1+2 = (1, 0, 0) (core = singolo punto) [ 1. -0. -0.]
+OK   T2 Shapley offerta abbondante = (1, 1/2, 1/2) [1.  0.5 0.5]
+OK   T3 efficienza Shapley
+OK   T3 simmetria Shapley (giocatori identici)
+OK   T3 non negativita Shapley (gioco monotono)
+OK   T3 contributi marginali >= 0
+OK   T3 nucleolo efficiente e nel core (max eccesso <= 1e-6 v(N)) max eccesso/v(N)=-2.05e-02
+OK   T3 nucleolo simmetrico
+OK   T3 least core eps* <= 0 (core non vuoto, gioco bilanciato) eps*=-10.1
+OK   T4 Shapley campionato efficiente
+OK   T4 Shapley campionato vicino all esatto (errore L1 relativo < 3%) 0.012
+OK   T5 water-filling (1,2,5) con 4 -> (1,1.5,1.5) [1.  1.5 1.5]
+OK   T5 water-filling somma e limiti
+OK   T6 efficienza regola EQ sum/B=1.000000000
+OK   T6 efficienza regola PA sum/B=1.000000000
+OK   T6 efficienza regola PS sum/B=1.000000000
+OK   T6 efficienza regola PH sum/B=1.000000000
+OK   T6 efficienza regola PG sum/B=1.000000000
+OK   T6 efficienza regola CT sum/B=1.000000000
+OK   T6 efficienza regola EP sum/B=1.000000000
+OK   T6 efficienza regola PF sum/B=1.000000000
+OK   T6 efficienza regola SW sum/B=1.000000000
+OK   T6 efficienza regola MC sum/B=1.000000000
+OK   T6 efficienza regola SV sum/B=1.000000000
+OK   T6 efficienza regola SVa sum/B=1.000000000
+OK   T6 efficienza regola NUC sum/B=1.000000000
+OK   T6 PH = pro-rata orario calcolato con cicli indipendenti
+OK   T6 EQ: parti uguali dentro ciascun lato
+OK   T6 PA: tasso di premio uguale fra consumatori
+OK   T7 lato produttori di PH proporzionale ai pesi di Cecini (Eq. 34-35)
+OK   T8 CT con categoria vuota: efficienza
+OK   T8 CT con categoria vuota: quota ai produttori = pi
+OK   T9 EP nel core (PV/carico=0.5) max eccesso/B=-3.08e-05
+OK   T9 EP nel core (PV/carico=1.0) max eccesso/B=-2.58e-05
+OK   T9 EP nel core (PV/carico=1.5) max eccesso/B=-1.08e-05
+OK   T10 Gini([1,1,1,1]) = 0
+OK   T10 Gini([0,0,0,1]) = 0.75
+OK   T10 Gini([1,2,3]) = 2/9
+OK   T10 EQ: E1=E2=E3=1 (consumatori con premi uguali)
+OK   T10 PH: P1c = P2p = 1 (proporzionalita fisica per definizione)
+OK   T10 PA: E4 = 1 (stesso premio per kWh fra consumatori)
+OK   T10 pi_eff = pi per le regole semplici
+OK   T11 Shapley fuori dal core (P7 = N in Tab. 1) max eccesso/B=+0.0235
+OK   T11 Average Price (= PH a pi=0,5) fuori dal core (P7 = N in Tab. 1) max eccesso/B=+0.0326
+OK   T11 Extreme Price (= EP) nel core (P7 = Y in Tab. 1) max eccesso/B=-2.78e-05
+
+Tutti i test superati.

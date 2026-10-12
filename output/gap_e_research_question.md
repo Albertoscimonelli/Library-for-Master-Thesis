@@ -1,6 +1,7 @@
 # Fase 3 — Gap, verifica online e research question candidate
 
-**Stato:** bozza per il **CHECKPOINT**. Nessuna scelta è stata presa. Non ho scritto né l'articolo né il piano del modello Matlab (Fase 4): aspetto la tua decisione (§7).
+**Aggiornamento (12/10/2026):** scelta dell'utente registrata: RQ-1 principale, RQ-2 eventuale estensione dopo; sviluppo in `output/fase4_outline_imrad.md` e `output/fase4_piano_modello_matlab.md`. Tre correzioni di questo documento sono elencate nelle **Errata** in fondo.
+**Stato alla data di prima stesura:** bozza per il **CHECKPOINT**. Nessuna scelta era stata presa. Non ho scritto né l'articolo né il piano del modello Matlab (Fase 4): aspetto la tua decisione (§7).
 **Data della verifica online:** 12/10/2026.
 **Lingua:** italiano; termini tecnici e titoli dei paper in inglese (B.6).
 **File collegati:** `output/schede/` (56 schede), `output/sintesi.md` (Fase 2), `output/gap_registro_fw.md` (registro dei future work, 56 righe), `output/supporto_fase3/` (due controlli numerici giocattolo in Python, vedi Appendice B).
@@ -78,7 +79,7 @@ Nota B.2/B.3: `volpato2023` (p. 2) parafrasa `cremers2023` in modo più forte (�
 
 **Rilevanza e originalità.** Rilevanza alta (cuore del Cap. 2.3). Originalità **medio-bassa**: il confronto fra regole è un tema occupato (sotto).
 
-**Fattibilità (Matlab, dati).** Alta. Regole in forma chiusa o con LP/approssimazioni; Shapley esatto per N ≲ 16 (2^N coalizioni, calcolo a blocchi su 8760 ore), Monte Carlo per N maggiori (`cremers2023`: errore sotto l'1% per N > 100); least core/nucleolo con `linprog` per N ≲ 14. Dati: profili di carico del corpus (Thames Valley Vision in `norbu2021a/b` e `cremers2023`; LoadProfileGenerator in `alonsopedrero2024` e `casalicchio2022a/b`; dati e tariffe ARERA citati in 16 schede) e produzione da PVGIS (citato in 16 schede).
+**Fattibilità (Matlab, dati).** Alta. Regole in forma chiusa o con LP/approssimazioni; Shapley esatto per N ≲ 16 (2^N coalizioni, calcolo a blocchi su 8760 ore), Monte Carlo per N maggiori (`cremers2023`: errore sotto l'1% per N > 100); least core/nucleolo con `linprog` per N ≲ 14 (nel pilot Python della Fase 4 il nucleolo esatto a N = 16 richiede 66–75 s: vedi Errata). Dati: profili di carico del corpus (Thames Valley Vision in `norbu2021a/b` e `cremers2023`; LoadProfileGenerator in `alonsopedrero2024` e `casalicchio2022a/b`; dati e tariffe ARERA citati in 16 schede) e produzione da PVGIS (citato in 16 schede).
 
 **Rischio di copertura `[WEB]`.**
 - Couraud et al., *Fairness of Energy Distribution Mechanisms in Collective Self-Consumption Schemes* (arXiv:2508.16819, 2025): simulazioni su 250 comunità residenziali generate casualmente (20 famiglie) per confrontare meccanismi di distribuzione, con un nuovo indicatore di fairness meritocratica; secondo il riassunto, «glass-filling with prioritization» è il migliore su misure egalitarie e min-max, mentre «double auction» e «pro rata» sono i migliori sulla meritocrazia. Dal riassunto i meccanismi confrontati riguardano la distribuzione dell'energia (glass-filling, double auction, pro rata); non risultano regole game-theoretic `[INFERENZA dal riassunto]`.
@@ -234,7 +235,7 @@ Convenzioni comuni: la ripartizione riguarda un incentivo calcolato sull'energia
 
 **Formulazione.** *In una CER che ripartisce un incentivo calcolato sull'energia condivisa oraria, il ranking delle regole di ripartizione delle sei famiglie cambia al variare della nozione di fairness (uguaglianza, proporzionalità al contributo, stabilità) e della composizione della comunità? Quale insieme minimo di indicatori basta a discriminarle?*
 
-**Termini calcolabili (B.5).** Ranking = ordinamento delle regole per indicatore; concordanza = Kendall τ fra ordinamenti; composizione = parametri (N, quota produttori, rapporto PV/carico, quota persone fisiche); indicatori = Gini, Jain, MinMax, Price of Fairness, indice di proporzionalità al contributo (correlazione fra compenso e contributo marginale), margine di stabilità e di razionalità individuale.
+**Termini calcolabili (B.5).** Ranking = ordinamento delle regole per indicatore; concordanza = Kendall τ fra ordinamenti; composizione = parametri (N, quota produttori, rapporto PV/carico, quota persone fisiche); indicatori = Gini, Jain, MinMax, indice di proporzionalità al contributo fisico, margine di stabilità (eccesso massimo delle coalizioni) e quota di coalizioni bloccanti. *(Errata 12/10/2026: il Price of Fairness non è calcolabile a torta fissa, vedi Errata in fondo.)*
 
 **Ancore (B.1).** `volpato2024b`, `dynge2025`, `gasca2025`, `cremers2023` #4: tutte di tipo generale.
 
@@ -255,7 +256,7 @@ Convenzioni comuni: la ripartizione riguarda un incentivo calcolato sull'energia
 **Formulazione.** *In una CER con incentivo sull'energia condivisa oraria, quanta forza incentivante forniscono le regole delle sei famiglie — misurata come (a) dispersione dei compensi a parità di energia annua e diverso sincronismo con il surplus, (b) quota del guadagno marginale di sincronizzazione trattenuta dal membro, (c) sensibilità al consumo aggiuntivo nelle ore vincolate dalla produzione — e come cambia il suo trade-off con l'equità distributiva a seconda della nozione di fairness adottata e della composizione della comunità?*
 *Sotto-domanda:* quanta energia condivisa e quanti € aggiuntivi (e, se i dati lo permettono, CO2 evitata) si generano se una quota `φ` del carico è flessibile e risponde all'incentivo, e il guadagno compensa il costo in equità?
 
-**Termini calcolabili (B.5).** (a), (b), (c) come in §3.2; equità = Gini, Jain, Price of Fairness (nozione di uguaglianza) e indice di proporzionalità al contributo (nozione contributiva); composizione come in RQ-1; `φ` è un parametro di scenario. L'«engagement» in senso sociologico **non** è nella RQ.
+**Termini calcolabili (B.5).** (a), (b), (c) come in §3.2; equità = Gini, Jain (nozione di uguaglianza) e indice di proporzionalità al contributo (nozione contributiva); il Price of Fairness è definibile solo con lo strato di risposta, come perdita di `B` rispetto alla regola che massimizza `B` *(errata 12/10/2026)*; composizione come in RQ-1; `φ` è un parametro di scenario. L'«engagement» in senso sociologico **non** è nella RQ.
 
 **Ancore (B.1).** Principali: `gonzalezasenjo2025` #3 (household flexibility, multi-period coupling) e `gonzalezasenjo2026` (p. 35: metodi ex post, fattori comportamentali), entrambe di tipo generale; #4 per l'uso di dati realistici. Supporto: `basilico2025` (3, 5), `gasca2025` (#7), `giudice2026`, `bilardo2025`, `gianaroli2024`, più l'esperimento di `zatti2021`. **Dichiaro:** #1–#2 di `gonzalezasenjo2025` (nucleolo) non sono usati; RQ-2 risponde a #3 solo sull'asse flessibilità/multi-periodo.
 
@@ -441,3 +442,11 @@ Riassunti del motore di ricerca; nessun testo originale letto. Da recuperare per
 | Magni, Bricca, Familiari | JSDEWES (2025). http://www.sdewes.org/jsdewes/pid13.0589 | Scenari D.M. 414/2024 |
 | PRIN 2022 «Compensation Rules Among Members of Heterogeneous Energy Communities» (Brescia/Torino) | https://energycommunities-lab.unibs.it/ | Progetto sullo stesso tema (G4); risultati non letti |
 | arXiv:2606.30359 (decision-support PV self-consumption); arXiv:2606.30083 (new member integration, prospect theory); Energies 18(18):4815; arXiv:2311.18792; HAL-02520203; arXiv:2010.05544; arXiv:2309.05363; arXiv:2303.07879 | come indicato | Ibrido equità/contributo marginale, nuovi membri, core non vuoto, incentivi alla flessibilità |
+
+---
+
+## Errata (12/10/2026, emerse durante la Fase 4)
+
+1. **Price of Fairness in RQ-1.** Era indicato fra i termini calcolabili di RQ-1 (§4). Con ripartizione ex post e profili fissi tutte le regole distribuiscono lo stesso valore `B`: la perdita di efficienza è nulla per costruzione. È stato tolto da RQ-1. In RQ-2 è definibile solo con lo strato di risposta.
+2. **Nash bargaining.** Nel gioco del solo incentivo `v({i}) = 0` per ogni giocatore: con punti di disaccordo nulli il Nash bargaining coincide con la divisione in parti uguali fra tutti `[INFERENZA]`, quindi non è una regola distinta nel confronto di RQ-1.
+3. **Limite del calcolo esatto.** Nel pilot Python (profili sintetici, 8.760 ore) il nucleolo esatto a N = 16 richiede 66–75 s e il least core 0,8–1,3 s; a N = 18 il calcolo dei valori di coalizione richiede 37,5–47,8 s. Il campionamento dello Shapley con somme cumulate a N = 200 richiede 25,8–29,3 s per 500 permutazioni (minimo e massimo di tre esecuzioni; dettagli nel piano del modello, §10). Tempi di Python, indicativi per Matlab: `output/supporto_fase4/`.

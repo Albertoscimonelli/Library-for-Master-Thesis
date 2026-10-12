@@ -1,0 +1,40 @@
+{
+ "n": 6,
+ "T": 168,
+ "role": [
+  "P",
+  "P",
+  "C",
+  "C",
+  "C",
+  "C"
+ ],
+ "ctype": [
+  "PR",
+  "PR",
+  "NP",
+  "NP",
+  "SME",
+  "OE"
+ ],
+ "vuln": [
+  0,
+  0,
+  0,
+  1,
+  0,
+  0
+ ],
+ "pi": 0.4,
+ "pct_cluster_NP_SME_OE": [
+  0.2,
+  0.5,
+  0.3
+ ],
+ "vuln_quota_n_cap": [
+  0.02,
+  0.5
+ ],
+ "price_per_kWh": 1.0,
+ "note": "Profili sintetici (seed 2026). 0-based; ordine membri: produttori P1,P2, poi consumatori C1..C4. Un passo = 1 ora, 7 giorni da 24 ore."
+}

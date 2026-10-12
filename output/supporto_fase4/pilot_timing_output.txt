@@ -1,0 +1,12 @@
+N   | valori v(S) | Shapley | least core LP | nucleolo (LP iterativi)
+  8 |      0.1 s  |   0.00 s |      0.0 s    |      0.0 s   (eps*=-157)
+ 10 |      1.0 s  |   0.00 s |      0.0 s    |      0.1 s   (eps*=-153)
+ 12 |      0.4 s  |   0.00 s |      0.0 s    |      1.0 s   (eps*=-86.5)
+ 14 |      2.3 s  |   0.00 s |      0.2 s    |      1.1 s   (eps*=-61.3)
+ 16 |      8.9 s  |   0.02 s |      0.8 s    |     66.3 s   (eps*=-50.5)
+ 18 |     37.5 s  |   0.14 s |      7.9 s    |      nan s   (eps*=-49.2)
+
+Shapley campionato con somme cumulate (M=500 permutazioni):
+N=  50:    5.4 s  (somma phi/v(N) = 1.000000)
+N= 100:   10.3 s  (somma phi/v(N) = 1.000000)
+N= 200:   25.8 s  (somma phi/v(N) = 1.000000)

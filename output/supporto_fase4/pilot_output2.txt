@@ -1,0 +1,107 @@
+cell PV/load=0.5 mix=evening sigma=0.3: shared/PV=0.70 corr(load,PV)=0.27
+cell PV/load=0.5 mix=evening sigma=1.0: shared/PV=0.67 corr(load,PV)=0.14
+cell PV/load=0.5 mix=daytime sigma=0.3: shared/PV=0.71 corr(load,PV)=0.35
+cell PV/load=0.5 mix=daytime sigma=1.0: shared/PV=0.71 corr(load,PV)=0.34
+cell PV/load=1.0 mix=evening sigma=0.3: shared/PV=0.45 corr(load,PV)=0.27
+cell PV/load=1.0 mix=evening sigma=1.0: shared/PV=0.42 corr(load,PV)=0.14
+cell PV/load=1.0 mix=daytime sigma=0.3: shared/PV=0.47 corr(load,PV)=0.35
+cell PV/load=1.0 mix=daytime sigma=1.0: shared/PV=0.47 corr(load,PV)=0.34
+cell PV/load=1.5 mix=evening sigma=0.3: shared/PV=0.33 corr(load,PV)=0.27
+cell PV/load=1.5 mix=evening sigma=1.0: shared/PV=0.31 corr(load,PV)=0.14
+cell PV/load=1.5 mix=daytime sigma=0.3: shared/PV=0.35 corr(load,PV)=0.35
+cell PV/load=1.5 mix=daytime sigma=1.0: shared/PV=0.35 corr(load,PV)=0.34
+
+=== tau medio fra indicatori, per cella ===
+(0.5, 'evening', 0.3) tau medio coppie = 0.13
+(0.5, 'evening', 1.0) tau medio coppie = 0.10
+(0.5, 'daytime', 0.3) tau medio coppie = 0.01
+(0.5, 'daytime', 1.0) tau medio coppie = 0.04
+(1.0, 'evening', 0.3) tau medio coppie = 0.10
+(1.0, 'evening', 1.0) tau medio coppie = 0.09
+(1.0, 'daytime', 0.3) tau medio coppie = 0.01
+(1.0, 'daytime', 1.0) tau medio coppie = 0.01
+(1.5, 'evening', 0.3) tau medio coppie = 0.10
+(1.5, 'evening', 1.0) tau medio coppie = 0.10
+(1.5, 'daytime', 0.3) tau medio coppie = -0.01
+(1.5, 'daytime', 1.0) tau medio coppie = 0.02
+
+=== Stabilita del ranking fra composizioni (tau medio fra celle, per indicatore) ===
+E1_1-Gini       tau medio =  0.66   min =  0.28
+E2_Jain         tau medio =  0.63   min =  0.31
+E3_MinMax       tau medio =  0.76   min =  0.53
+E4_1-GiniRate   tau medio =  0.85   min =  0.68
+P1_PhysC        tau medio =  0.88   min =  0.74
+P2_PhysP        tau medio =  0.95   min =  0.90
+P3_-D_MC        tau medio =  0.72   min =  0.36
+P4_-D_SV        tau medio =  0.67   min =  0.26
+S1_-MaxExcess   tau medio =  0.82   min =  0.70
+S2_1-Blocking   tau medio =  0.79   min =  0.63
+S3_MinShare     tau medio =  0.65   min =  0.19
+Q1_NPratio      tau medio =  0.69   min =  0.43
+Q2_VULNratio    tau medio =  0.81   min =  0.62
+
+tau medio fra indicatori (stessa cella) = 0.06
+
+=== Effetto di pi (cella PV/load=1.0, balanced, sigma=0.3): rango medio per indicatore chiave ===
+-- E1_1-Gini
+rule  pi=0.2 pi=0.4 pi=0.6
+EQ       1.0    1.0    1.0
+PA       9.3    9.3    9.3
+PS       6.7    6.7    6.7
+PH       7.7    7.7    7.7
+PG       5.0    5.0    5.0
+CT       3.0    3.0    3.0
+EP       9.7    9.7    9.7
+PF       2.0    2.0    2.0
+SW       4.0    4.0    4.0
+MC      12.0   12.0   12.0
+SV       8.7    8.7    8.7
+SVa      9.0    9.0    9.0
+NUC     13.0   13.0   13.0
+-- P1_PhysC
+rule  pi=0.2 pi=0.4 pi=0.6
+EQ      13.0   13.0   13.0
+PA      10.0   10.0   10.0
+PS       2.3    2.3    2.3
+PH       1.0    1.0    1.0
+PG       7.0    7.0    7.0
+CT      11.0   11.0   11.0
+EP       4.7    4.7    4.7
+PF      12.0   12.0   12.0
+SW       9.0    9.0    9.0
+MC       5.0    5.0    5.0
+SV       2.7    2.7    2.7
+SVa      6.0    6.0    6.0
+NUC      7.3    7.3    7.3
+-- S1_-MaxExcess
+rule  pi=0.2 pi=0.4 pi=0.6
+EQ      13.0   13.0   13.0
+PA      10.0   10.0    9.0
+PS       5.7    5.0    8.0
+PH       4.3    3.7    6.3
+PG       7.7    6.3    6.7
+CT      11.0   11.0   11.0
+EP       2.0    2.0    2.0
+PF      12.0   12.0   12.0
+SW       9.0    8.7   10.0
+MC       3.0    3.3    3.0
+SV       6.3    7.7    4.7
+SVa      6.0    7.3    4.3
+NUC      1.0    1.0    1.0
+-- S3_MinShare
+rule  pi=0.2 pi=0.4 pi=0.6
+EQ       1.0    1.0    1.0
+PA       5.7    6.3    9.7
+PS       8.0   12.0   12.3
+PH       7.0    9.3   11.3
+PG       5.0    5.0    9.0
+CT       3.0    3.0    3.0
+EP       9.0    6.3    4.3
+PF       2.0    2.0    2.0
+SW       4.3    4.3    6.0
+MC      10.3    8.3    6.0
+SV      11.3   10.3    7.3
+SVa     11.3   10.0    7.0
+NUC     13.0   13.0   12.0
+
+Tempo totale: 181 s
