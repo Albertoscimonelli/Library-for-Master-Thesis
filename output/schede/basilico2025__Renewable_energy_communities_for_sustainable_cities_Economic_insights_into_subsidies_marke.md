@@ -54,14 +54,15 @@ Basilico, P.; Biancardi, A.; D'Adamo, I.; Gastaldi, M.; Yigitcanlar, T. (2025). 
 - p. 6: quote di autoconsumo calcolate su base annua; assenza di stoccaggio e di profili orari (modello deterministico a quote annue) `[INFERENZA su assenza nel testo]`.
 
 ## 9. Future work dichiarati dagli autori
-Elenco completo (Sez. 6.3 e 6.6, p. 15):
-1. "future research should focus on refining the parameters of the benefits distribution models, particularly by enhancing the mechanisms for rewarding virtuous behavior and addressing income inequality" (p. 15).
-2. "exploring the integration of diverse energy sources (e.g., wind, biomass) into RECs" (p. 15).
-3. "further empirical research into the social dimensions of RECs (e.g., citizen engagement, community participation)" (p. 15).
+Elenco completo (Sez. 6.3, p. 15, e Sez. 6.6, p. 16):
+1. "future research should focus on refining the parameters of the benefits distribution models, particularly by enhancing the mechanisms for rewarding virtuous behavior and addressing income inequality" (p. 16, Sez. 6.6).
+2. "exploring the integration of diverse energy sources (e.g., wind, biomass) into RECs" (p. 16, Sez. 6.6).
+3. "further empirical research into the social dimensions of RECs (e.g., citizen engagement, community participation)" (p. 16, Sez. 6.6).
 4. "a hybrid model, combining the auction mechanism with income-based rewards, could provide a more holistic solution" (p. 15, Sez. 6.3).
-5. "understanding the social motivations that drive prosumers and consumers to engage with RECs will be essential for fostering participation and long-term success" (p. 15).
+5. "understanding the social motivations that drive prosumers and consumers to engage with RECs will be essential for fostering participation and long-term success" (p. 15, Sez. 6.3).
+6. "By integrating technical, economic and social considerations, future studies may contribute to a more comprehensive and holistic understanding of how RECs can drive the creation of sustainable, resilient and inclusive cities" (p. 16, Sez. 6.6, ultima frase). Il soggetto è il contributo delle REC alle città sostenibili, non la ripartizione dei benefici: la frase è stata riusata come evidenza di gap sull'allocazione in `cecini_tesi` (Sez. 2.5, con una citazione accorciata), il che è una lettura estesa `[INFERENZA]`.
 
-Classificazione `[INFERENZA — test B.1]`: 1 e 4 sono autoreferenziali (affinare i propri PDM): deboli; 2 è un'estensione tecnologica fuori dall'allocazione; 3 e 5 sono indicazioni generali sulle dimensioni sociali e sull'engagement, non specificate e non operazionalizzate (B.5): sensibili come tema ma da tradurre in grandezze osservabili.
+Classificazione `[INFERENZA — test B.1]`: 1 e 4 sono autoreferenziali (affinare i propri PDM): deboli; 2 è un'estensione tecnologica fuori dall'allocazione; 3 e 5 sono indicazioni generali sulle dimensioni sociali e sull'engagement, non specificate e non operazionalizzate (B.5): sensibili come tema ma da tradurre in grandezze osservabili; 6 è generale e non riguarda specificamente l'allocazione.
 
 ## 10. Note del lettore (inferenze mie)
 - **Il peso dei prezzi proposti rende PDM3 non incentive-compatible (calcolo mio).** Riproducendo le Eq. (8)–(24) con le quattro proposte dell'indagine (0,081; 0,168; 0,239; 0,309 €/kWh), ogni RSC guadagna proponendo unilateralmente un prezzo più basso del proprio: RSC1 +327 € (da 3666 a 3993 €) proponendo 0,001 €/kWh, RSC2 +445 €, RSC3 +414 €, RSC4 +302 € (RSC4: +227 € con 0,010 €/kWh); il peso p_ex/p_p,j cresce senza limite al diminuire del prezzo proposto e il prezzo medio p_ex si abbassa solo in parte. Il testo segnala solo il rischio di "collusion" (p. 11); il problema vale anche per un singolo agente. `[INFERENZA — verifica numerica mia]`
