@@ -1,4 +1,4 @@
-# goncalves2024 — Analyzing the Impact of Pricing Strategies on Economic Fairness in Energy Communities
+# goncalves2024a — Analyzing the Impact of Pricing Strategies on Economic Fairness in Energy Communities
 
 - **File sorgente:** `Paper/Analyzing the Impact of Pricing Strategies on Economic Fairness in Energy Communities.pdf` (5 pagine, testo estraibile; le formule sono estratte in modo imperfetto)
 - **Tipo:** conference paper (IEEE PES General Meeting 2024)
