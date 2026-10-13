@@ -238,3 +238,39 @@ Elenco delle discrepanze emerse nelle schede (di norma piccole e che non cambian
 - **Nessuna verifica online in questa fase.** La ricerca sul rischio che un gap sia già coperto (B.3) è condotta nella Fase 3.
 - **File di contesto mancante:** `Paper/ISTRUZIONI_E_CONTESTO.md` rimanda a `HANDOFF_SESSIONE_GAP.md`, che non esiste nel repository; le regole B.1–B.6 sono state applicate dal testo di `ISTRUZIONI_E_CONTESTO.md`.
 - **Fase 3.** I punti rilevanti da trasformare in gap con evidenza (e con la verifica B.2 sui future work completi) emergono soprattutto da: K1, K5, K6, K7, K8 (contraddizioni), C7, C9, C10, C11 (convergenze) e dalle osservazioni 6.1–6.6.
+
+## 9. Aggiornamento del 13/10/2026: cinque documenti aggiunti
+
+**Nota di perimetro.** Le sezioni 1–8 si riferiscono ai 56 documenti originali e non sono state riscritte. Questa sezione aggiunge `chatel2026`, `avanzini2026`, `biancardi2026`, `thomopulos2026`, `calcagnotto2026` (schede in `output/schede/`). Il corpus passa a 61 documenti e i documenti del 2026 a 7 (con `gonzalezasenjo2026` e `giudice2026`, già presenti). L'utente ha annunciato 7 nuovi paper ma ne sono arrivati 5: i due mancanti non sono stati letti. Le classificazioni sono mie (`[INFERENZA]`).
+
+### 9.1 Tabella dei cinque documenti
+
+| Key | Tipo | Dati | Ripartisce il beneficio fra membri? | Equità misurata? | Famiglia |
+|-----|------|------|-------------------------------------|------------------|----------|
+| `chatel2026` | Rassegna (RSER) | — | No (classifica i meccanismi) | No (giudizi qualitativi in Tab. 2) | C/transversale |
+| `avanzini2026` | Simulazione, 6 schemi di contabilizzazione | 38 edifici, Italia (misto) | No: «not modelled in this study» (p. 13) | No | D |
+| `biancardi2026` | Modello a pesi di categoria + indicatori finanziari | Caso illustrativo; 403 rispondenti per i pesi | Sì: percentuali per categoria × regola interna | No | B |
+| `thomopulos2026` | Simulatore flessibilità + incentivo | REC di 6 membri, Liguria | No (solo spostamenti di carico con pesi fissi) | No | D |
+| `calcagnotto2026` | 16 modi di coefficienti ex-ante (Spagna) | 2 casi (2 e 160 membri aggregati) | Sì, energia (PTC/OPT); compensazione economica solo come esempio | No (dichiarato, p. 4) | B (regime ex-ante) |
+
+### 9.2 Che cosa cambia nelle convergenze e nelle contraddizioni
+
+- **Convergenza nuova (si affianca a quelle della §5.1).** Tre dei cinque documenti (`chatel2026`, `avanzini2026`, `calcagnotto2026`) affermano in modo indipendente che il risultato economico dipende dalle regole di contabilizzazione, dal prezzo o dai coefficienti più che dalle metriche energetiche aggregate: «economic outputs are largely decoupled from energy performance» (`avanzini2026`, p. 15); le tariffe interne e il trattamento dei costi di rete incidono «sometimes more than the internal pricing rule itself» (`chatel2026`, p. 19); i KPI di comunità variano di decimi di punto fra i 16 modi mentre quelli individuali variano di molti punti (`calcagnotto2026`, mia lettura della Tab. 4). Sono evidenze su casi diversi, non una prova generale.
+- **Il gap di allineamento fra indicatori ha ora una fonte da rassegna.** `chatel2026` (p. 19) scrive che manca un'articolazione sistematica su come criteri tecnici e di benessere «interact or conflict»; vale come dichiarazione di stato dell'arte, non come misura.
+- **Regime ex-ante contro ex-post (nuovo asse di lettura).** In `calcagnotto2026` la regola (i coefficienti) determina la torta (OPT contro PTC danno `SCR_REC` diversi); nel regime italiano ex-post l'energia condivisa è fissata dalle misure e la regola ripartisce soltanto. Lo stesso vale per i VNM di `avanzini2026` (chiave statica). `[INFERENZA]` Questo conferma che le conclusioni sulla «forza incentivante» non si trasferiscono fra regimi senza adattamento.
+- **Quote per categoria di stakeholder.** `biancardi2026` è il primo documento del corpus a separare esplicitamente (i) la percentuale per categoria e (ii) la regola interna alla categoria, e a chiedere di svilupparle insieme (p. 12). `[INFERENZA]` Corrisponde alla struttura dei metodi ad albero già presenti (Cascading Tree), ma con pesi empirici.
+- **Nessuna nuova contraddizione sulla classifica delle regole.** Nessuno dei cinque confronta regole di teoria dei giochi su dati; la sezione 5.2 non cambia.
+
+### 9.3 Osservazioni numeriche e di coerenza sui cinque documenti
+
+| Key | Osservazione (mia verifica) |
+|-----|-----------------------------|
+| `biancardi2026` | Gli importi del caso illustrativo (p. 11) per RT e S corrispondono a 18,0% e 3,0% di 18.518,3 € (3.333,3 € e 555,5 €), non al 18,5% e 2,5% di Tab. 14 (3.425,9 € e 463,0 €) |
+| `calcagnotto2026` | Media `SCR_REC` PTC nel CS1 85,43% (mia, dalla Tab. 4) contro 85,3% dell'abstract; §3.3 indica OPT-CON-WDWE + M come modo migliore in entrambi i casi, mentre per il CS1 Tab. 4 dà OPT-24 h − WDWE + M (87,48% contro 87,25%); in Tab. 3 le righe WDWE e M sembrano scambiate rispetto alla Tab. 2 |
+| `thomopulos2026` | Eq. 16 usa il PUN con una costante zonale `k_z`, mentre gli altri documenti italiani del corpus usano il prezzo zonale orario; datazione ambigua (frontespizio 2027, DOI e data online 2026) |
+| `avanzini2026` | Somme di Tab. 7 verificate per tutte e sei le righe: nessuna incongruenza trovata |
+
+### 9.4 Limiti dell'aggiornamento
+- Nessuna verifica online aggiuntiva per i cinque documenti; la ricerca di competitori (B.3) resta quella della Fase 3.
+- Figure non ispezionate in tutti e cinque; Tab. 5 di `calcagnotto2026` (ruotata) non letta.
+- I gap e le RQ della Fase 3 non sono stati riscritti; il registro dei future work è stato esteso a 61 righe (`output/gap_registro_fw.md`).
