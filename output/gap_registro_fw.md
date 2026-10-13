@@ -1,6 +1,6 @@
-# Registro dei future work dei 61 documenti (56 + 5 aggiunti il 13/10/2026) (Fase 3 — test B.1 e B.2)
+# Registro dei future work dei 63 documenti (56 + 7 aggiunti il 13/10/2026) (Fase 3 — test B.1 e B.2)
 
-Questo file è l'allegato della Fase 3 (`output/gap_e_research_question.md`). Contiene una riga per ciascuno dei 61 documenti (le righe 57–61 sono state aggiunte il 13/10/2026; le classificazioni delle righe 1–56 non sono state toccate) del corpus.
+Questo file è l'allegato della Fase 3 (`output/gap_e_research_question.md`). Contiene una riga per ciascuno dei 63 documenti (le righe 57–63 sono state aggiunte il 13/10/2026; le classificazioni delle righe 1–56 non sono state toccate) del corpus.
 
 **Fonte:** sezione 9 di ciascuna scheda in `output/schede/`, dove l'elenco *completo* dei punti di future work è stato trascritto dal PDF (test B.2: lista intera, non solo i punti favorevoli). Le citazioni usate come ancora nel documento principale sono state ricontrollate parola per parola sul testo estratto dei PDF (vedi §1 del documento principale).
 
@@ -78,6 +78,8 @@ Dove una riga ha due tipi (es. `G (4) / A (1–3)`), i numeri indicano i punti d
 | 59 | `biancardi2026` | pp. 12 e 14 (3 punti) | A (tema generale) | Pesi di categoria × regola interna da sviluppare insieme; quota personale; storage | Spunto di disegno sperimentale a due fattori; ancora debole (B.1) |
 | 60 | `thomopulos2026` | Sez. 1.3 e Conclusioni pp. 5, 16 (4 punti) | A | Flessibilità da generazione/BESS; ottimizzazione; previsione della baseline; scenari stocastici | Escluso: nessun punto riguarda la ripartizione |
 | 61 | `calcagnotto2026` | Conclusioni pp. 10–12 (6 punti) | G (v) / A (i–iv, vi) | Più consumatori e profili; eccedenze con aggregatore/storage; ottimizzazione multi-obiettivo; equità: benefici individuali garantiti, soprattutto per i vulnerabili | Supporto G5 (equità individuale), con cautela: frase di chiusura senza argomentazione |
+| 62 | `dadamo2026` | Sez. 3.2 p. 5 e Conclusioni p. 12 | A / G- | Accumulo; altri contesti regolatori e socio-economici; validazione empirica (limitazione) | Escluso come FW; la frase di gap (p. 2) è una formulazione non universale su prezzi differenziati e vulnerabili |
+| 63 | `awerkin2026` | Sez. 4.2 p. 15 e Conclusioni p. 37 (5 punti) | M (iii, v) / A (i, ii, iv) | Criteri alternativi di ripartizione e «systematic theoretical and numerical comparison of alternative allocation principles»; giorno/notte, accumulo, espansione dinamica | Ancora media su G1/G2: tema generale ma formulato come estensione del proprio modello a regola unica (NB) |
 
 ## Conteggio (tipo prevalente, prima etichetta della colonna)
 
@@ -85,12 +87,12 @@ Dove una riga ha due tipi (es. `G (4) / A (1–3)`), i numeri indicano i punti d
 |------|-------------|
 | G (generale, forte o medio) | 8 |
 | G- (generale ma vago / fuori tema) | 5 |
-| M (misto) | 2 |
-| A (autoreferenziale) | 37 |
+| M (misto) | 3 |
+| A (autoreferenziale) | 38 |
 | — (nessun future work utilizzabile) | 9 |
-| **Totale** | **61** |
+| **Totale** | **63** |
 
-Dopo l'aggiornamento del 13/10/2026 il documento di tipo G in più è `calcagnotto2026`, ma per un solo punto su sei (il sesto, sull'equità dei benefici individuali); gli altri cinque sono autoreferenziali. `chatel2026` è G- (rassegna: dichiarazioni qualitative, non misurate). Prima dell'aggiornamento: i sette documenti di tipo G sono `cavalcante2025`, `cremers2023`, `dynge2025`, `gasca2025`, `gonzalezasenjo2025`, `gonzalezasenjo2026`, `volpato2024b`. In `cremers2023`, `cavalcante2025` e `gonzalezasenjo2025` solo alcuni punti sono generali; in `gianaroli2024` e `norbu2021b`, classificati A, c'è un punto generale (`gianaroli2024`: indicatori sociali e di ingresso/uscita; `norbu2021b` (iv): schemi trattabili che approssimano lo Shapley).
+Dopo l'aggiornamento del 13/10/2026: `awerkin2026` è M (due punti su cinque nominano il confronto fra principi di allocazione, ma è un lavoro a regola unica); `dadamo2026` è A; il documento di tipo G in più è `calcagnotto2026`, ma per un solo punto su sei (il sesto, sull'equità dei benefici individuali); gli altri cinque sono autoreferenziali. `chatel2026` è G- (rassegna: dichiarazioni qualitative, non misurate). Prima dell'aggiornamento: i sette documenti di tipo G sono `cavalcante2025`, `cremers2023`, `dynge2025`, `gasca2025`, `gonzalezasenjo2025`, `gonzalezasenjo2026`, `volpato2024b`. In `cremers2023`, `cavalcante2025` e `gonzalezasenjo2025` solo alcuni punti sono generali; in `gianaroli2024` e `norbu2021b`, classificati A, c'è un punto generale (`gianaroli2024`: indicatori sociali e di ingresso/uscita; `norbu2021b` (iv): schemi trattabili che approssimano lo Shapley).
 
 ## Verifiche B.2 sui paper usati come ancora (lista completa letta)
 
