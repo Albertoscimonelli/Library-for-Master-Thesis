@@ -1,0 +1,82 @@
+run PV/carico=0.5 sigma=0.3 seme=1: 3.8s  energia condivisa/immessa=0.71
+run PV/carico=0.5 sigma=0.3 seme=2: 5.3s  energia condivisa/immessa=0.72
+run PV/carico=0.5 sigma=0.3 seme=3: 3.4s  energia condivisa/immessa=0.72
+run PV/carico=0.5 sigma=0.3 seme=4: 4.6s  energia condivisa/immessa=0.72
+run PV/carico=0.5 sigma=1.0 seme=1: 4.2s  energia condivisa/immessa=0.71
+run PV/carico=0.5 sigma=1.0 seme=2: 6.0s  energia condivisa/immessa=0.72
+run PV/carico=0.5 sigma=1.0 seme=3: 2.1s  energia condivisa/immessa=0.69
+run PV/carico=0.5 sigma=1.0 seme=4: 2.5s  energia condivisa/immessa=0.72
+run PV/carico=1.0 sigma=0.3 seme=1: 4.4s  energia condivisa/immessa=0.47
+run PV/carico=1.0 sigma=0.3 seme=2: 3.3s  energia condivisa/immessa=0.47
+run PV/carico=1.0 sigma=0.3 seme=3: 2.5s  energia condivisa/immessa=0.47
+run PV/carico=1.0 sigma=0.3 seme=4: 1.5s  energia condivisa/immessa=0.47
+run PV/carico=1.0 sigma=1.0 seme=1: 3.1s  energia condivisa/immessa=0.46
+run PV/carico=1.0 sigma=1.0 seme=2: 3.9s  energia condivisa/immessa=0.47
+run PV/carico=1.0 sigma=1.0 seme=3: 3.5s  energia condivisa/immessa=0.45
+run PV/carico=1.0 sigma=1.0 seme=4: 3.7s  energia condivisa/immessa=0.47
+run PV/carico=1.5 sigma=0.3 seme=1: 5.8s  energia condivisa/immessa=0.35
+run PV/carico=1.5 sigma=0.3 seme=2: 4.4s  energia condivisa/immessa=0.35
+run PV/carico=1.5 sigma=0.3 seme=3: 2.7s  energia condivisa/immessa=0.35
+run PV/carico=1.5 sigma=0.3 seme=4: 2.0s  energia condivisa/immessa=0.35
+run PV/carico=1.5 sigma=1.0 seme=1: 2.8s  energia condivisa/immessa=0.34
+run PV/carico=1.5 sigma=1.0 seme=2: 2.9s  energia condivisa/immessa=0.35
+run PV/carico=1.5 sigma=1.0 seme=3: 2.6s  energia condivisa/immessa=0.33
+run PV/carico=1.5 sigma=1.0 seme=4: 3.1s  energia condivisa/immessa=0.35
+
+=== Rango medio per indicatore (1 = migliore; media su 24 run) ===
+regola  E1_1-Gini    E2_Jain  E3_MinMax E4_1-GiniR   P1_PhysC   P2_PhysP   P3_-D_MC   P4_-D_SV S1_-MaxExc S2_1-Block S3_MinShar Q1_NPratio Q2_VULNrat
+EQ            1.0        1.0        1.0       12.5       13.0       13.0       13.0       13.0       13.0       13.0        1.0        1.0        1.0
+PA            7.4        9.3        7.4        1.0       10.2        6.3        9.0        8.0        9.8       10.0        5.7        4.3        5.4
+PS            8.9        8.9       10.5        8.0        2.2        6.5        6.1        5.9        6.4        6.2       10.8       12.1       12.0
+PH            8.5        8.4        9.0        7.0        1.0        2.5        5.7        4.3        4.7        4.7        8.6       10.3        9.8
+PG            4.5        4.5        4.7        2.3        7.7        2.5        6.9        5.5        6.3        7.5        5.1        5.3        5.2
+CT            5.5        5.5        5.4       10.0       10.8        6.5       10.7       10.1       11.0       10.9        5.0        5.4        5.8
+EP            8.6        8.4        7.1        3.4        5.7        8.2        4.5        8.5        2.1        1.5        6.1        7.3        7.1
+PF            2.0        2.0        2.0       12.5       12.0        2.5       12.0       12.0       12.0       12.0        2.0        2.0        2.0
+SW            4.3        4.2        5.0       10.5        8.2        2.5        8.1        6.2        8.9        8.5        5.5        4.6        3.2
+MC           11.4       11.0       11.2        6.0        4.2       11.5        1.0        6.8        3.8        4.0        8.9       10.5       10.7
+SV            7.8        7.2        7.0        4.4        3.1       10.4        5.4        1.0        6.2        5.7        9.8        8.5        8.0
+SVa           8.5        8.4        7.8        3.9        6.0       11.0        6.5        2.8        5.8        5.4        9.6        7.5        8.1
+NUC          12.5       12.2       13.0        9.4        6.8        7.6        2.0        7.0        1.0        1.5       12.9       12.2       12.7
+
+##### Tutti gli indicatori: 13 indicatori
+tau medio fra coppie = 0.03; coppie con tau medio<0: 54%; coppie con tau medio>0.8: 8%
+  cluster 4: ['E1_1-Gini', 'E2_Jain', 'E3_MinMax', 'S3_MinShare', 'Q1_NPratio', 'Q2_VULNratio']
+  cluster 3: ['E4_1-GiniRate']
+  cluster 1: ['P1_PhysC', 'P3_-D_MC', 'S1_-MaxExcess', 'S2_1-Blocking']
+  cluster 5: ['P2_PhysP']
+  cluster 2: ['P4_-D_SV']
+  Regole per rimpianto minimax (rango medio per cluster - 1; max sui cluster) | rango medio sui cluster:
+   PG 6.1|4.4, EP 7.5|6.2, PH 8.1|5.4, PA 8.8|6.3, SV 9.4|5.8, SW 9.5|6.4, PS 9.5|7.2, CT 9.8|8.6, SVa 10.0|6.4, MC 10.5|7.6, PF 11.5|8.2, NUC 11.6|7.9, EQ 12.0|10.5
+  Rappresentanti (1 per cluster): ['E3_MinMax', 'E4_1-GiniRate', 'S2_1-Blocking', 'P2_PhysP', 'P4_-D_SV']; tau fra Borda a cluster e Borda dei rappresentanti = 0.90
+
+Matrice tau di Kendall (media sui run):
+               E1_1-G E2_Jai E3_Min E4_1-G P1_Phy P2_Phy P3_-D_ P4_-D_ S1_-Ma S2_1-B S3_Min Q1_NPr Q2_VUL
+E1_1-Gini        1.00   0.91   0.81  -0.22  -0.47   0.17  -0.61  -0.37  -0.61  -0.62   0.67   0.75   0.77
+E2_Jain          0.91   1.00   0.82  -0.26  -0.42   0.15  -0.57  -0.35  -0.56  -0.57   0.64   0.71   0.73
+E3_MinMax        0.81   0.82   1.00  -0.12  -0.50   0.11  -0.60  -0.33  -0.56  -0.57   0.76   0.79   0.81
+E4_1-GiniRate   -0.22  -0.26  -0.12   1.00   0.24  -0.05   0.27   0.39   0.32   0.30  -0.13  -0.03  -0.08
+P1_PhysC        -0.47  -0.42  -0.50   0.24   1.00  -0.03   0.55   0.54   0.54   0.57  -0.54  -0.68  -0.60
+P2_PhysP         0.17   0.15   0.11  -0.05  -0.03   1.00  -0.15  -0.00  -0.06  -0.09   0.14   0.08   0.15
+P3_-D_MC        -0.61  -0.57  -0.60   0.27   0.55  -0.15   1.00   0.49   0.74   0.75  -0.58  -0.63  -0.61
+P4_-D_SV        -0.37  -0.35  -0.33   0.39   0.54  -0.00   0.49   1.00   0.39   0.41  -0.54  -0.42  -0.38
+S1_-MaxExcess   -0.61  -0.56  -0.56   0.32   0.54  -0.06   0.74   0.39   1.00   0.91  -0.54  -0.61  -0.59
+S2_1-Blocking   -0.62  -0.57  -0.57   0.30   0.57  -0.09   0.75   0.41   0.91   1.00  -0.56  -0.62  -0.59
+S3_MinShare      0.67   0.64   0.76  -0.13  -0.54   0.14  -0.58  -0.54  -0.54  -0.56   1.00   0.75   0.76
+Q1_NPratio       0.75   0.71   0.79  -0.03  -0.68   0.08  -0.63  -0.42  -0.61  -0.62   0.75   1.00   0.91
+Q2_VULNratio     0.77   0.73   0.81  -0.08  -0.60   0.15  -0.61  -0.38  -0.59  -0.59   0.76   0.91   1.00
+
+##### Senza indicatori circolari (P3, P4): 11 indicatori
+tau medio fra coppie = 0.07; coppie con tau medio<0: 51%; coppie con tau medio>0.8: 11%
+  cluster 3: ['E1_1-Gini', 'E2_Jain', 'E3_MinMax', 'S3_MinShare', 'Q1_NPratio', 'Q2_VULNratio']
+  cluster 2: ['E4_1-GiniRate']
+  cluster 1: ['P1_PhysC', 'S1_-MaxExcess', 'S2_1-Blocking']
+  cluster 4: ['P2_PhysP']
+  Regole per rimpianto minimax (rango medio per cluster - 1; max sui cluster) | rango medio sui cluster:
+   PG 6.2|4.2, EP 7.2|5.5, PH 8.1|5.5, PA 9.0|6.0, SV 9.4|6.9, SW 9.5|6.5, PS 9.5|7.5, CT 9.9|8.2, SVa 10.0|7.2, MC 10.5|8.0, PF 11.5|7.2, NUC 11.6|8.2, EQ 12.0|9.9
+  Rappresentanti (1 per cluster): ['E3_MinMax', 'E4_1-GiniRate', 'S2_1-Blocking', 'P2_PhysP']; tau fra Borda a cluster e Borda dei rappresentanti = 0.85
+
+=== Quota effettiva ai produttori (pi_eff), media; pi fisso = 0.40 per le regole semplici ===
+{'EQ': 0.4, 'PA': 0.4, 'PS': 0.4, 'PH': 0.4, 'PG': 0.4, 'CT': 0.4, 'EP': 0.343, 'PF': 0.4, 'SW': 0.4, 'MC': 0.39, 'SV': 0.451, 'SVa': 0.454, 'NUC': 0.375}
+
+Tempo totale: 85 s
