@@ -239,11 +239,11 @@ Elenco delle discrepanze emerse nelle schede (di norma piccole e che non cambian
 - **File di contesto mancante:** `Paper/ISTRUZIONI_E_CONTESTO.md` rimanda a `HANDOFF_SESSIONE_GAP.md`, che non esiste nel repository; le regole B.1–B.6 sono state applicate dal testo di `ISTRUZIONI_E_CONTESTO.md`.
 - **Fase 3.** I punti rilevanti da trasformare in gap con evidenza (e con la verifica B.2 sui future work completi) emergono soprattutto da: K1, K5, K6, K7, K8 (contraddizioni), C7, C9, C10, C11 (convergenze) e dalle osservazioni 6.1–6.6.
 
-## 9. Aggiornamento del 13/10/2026: sette documenti aggiunti
+## 9. Aggiornamento del 13/10/2026: otto documenti aggiunti
 
-**Nota di perimetro.** Le sezioni 1–8 si riferiscono ai 56 documenti originali e non sono state riscritte. Questa sezione aggiunge `chatel2026`, `avanzini2026`, `biancardi2026`, `thomopulos2026`, `calcagnotto2026` e, arrivati in un secondo momento, `dadamo2026` e `awerkin2026` (schede in `output/schede/`). Il corpus passa a 63 documenti e i documenti del 2026 a 9 (con `gonzalezasenjo2026` e `giudice2026`, già presenti). Le classificazioni sono mie (`[INFERENZA]`).
+**Nota di perimetro.** Le sezioni 1–8 si riferiscono ai 56 documenti originali e non sono state riscritte. Questa sezione aggiunge `chatel2026`, `avanzini2026`, `biancardi2026`, `thomopulos2026`, `calcagnotto2026` e, arrivati in un secondo momento, `dadamo2026`, `awerkin2026` e `couraud2025` (schede in `output/schede/`). Il corpus passa a 64 documenti; i documenti del 2026 sono 9 (con `gonzalezasenjo2026` e `giudice2026`, già presenti), più `couraud2025`, un preprint dell'agosto 2025 (con `gonzalezasenjo2026` e `giudice2026`, già presenti). Le classificazioni sono mie (`[INFERENZA]`).
 
-### 9.1 Tabella dei sette documenti
+### 9.1 Tabella degli otto documenti
 
 | Key | Tipo | Dati | Ripartisce il beneficio fra membri? | Equità misurata? | Famiglia |
 |-----|------|------|-------------------------------------|------------------|----------|
@@ -254,18 +254,20 @@ Elenco delle discrepanze emerse nelle schede (di norma piccole e che non cambian
 | `calcagnotto2026` | 16 modi di coefficienti ex-ante (Spagna) | 2 casi (2 e 160 membri aggregati) | Sì, energia (PTC/OPT); compensazione economica solo come esempio | No (dichiarato, p. 4) | B (regime ex-ante) |
 | `dadamo2026` | DCF + regole ad hoc (prezzo interno differenziato, trasferimento di incentivo ai vulnerabili) | Caso illustrativo, 4 prosumer e 3 consumatori | Sì, regole ad hoc; nessun confronto fra regole | No (spesa ≤ 10% del reddito come vincolo) | B |
 | `awerkin2026` | Gioco Stackelberg + Nash, investimento e quota `β` | Caso stilizzato a 2 agenti, prezzi italiani storici | Sì, una sola regola (Nash bargaining); le altre solo discusse | No | A/B (teoria) |
+| `couraud2025` | Quattro meccanismi di mercato locale a prezzo uniforme (pro-rata, glass-filling, glass-filling con priorità, doppia asta), 4 nozioni di fairness | 250 comunità da 20 membri con profili reali (UK) e produzione francese; penetrazione PV 0–80% | Sì: confronto di 4 meccanismi; nessuna regola cooperativa | Sì (uguaglianza, min-max, meritocratica, utilitaria; need-based escluso), ma solo in forma grafica | B/C (regime francese) |
 
 ### 9.2 Che cosa cambia nelle convergenze e nelle contraddizioni
 
-- **Convergenza nuova (si affianca a quelle della §5.1).** Tre dei sette documenti (`chatel2026`, `avanzini2026`, `calcagnotto2026`) affermano in modo indipendente che il risultato economico dipende dalle regole di contabilizzazione, dal prezzo o dai coefficienti più che dalle metriche energetiche aggregate: «economic outputs are largely decoupled from energy performance» (`avanzini2026`, p. 15); le tariffe interne e il trattamento dei costi di rete incidono «sometimes more than the internal pricing rule itself» (`chatel2026`, p. 19); i KPI di comunità variano di decimi di punto fra i 16 modi mentre quelli individuali variano di molti punti (`calcagnotto2026`, mia lettura della Tab. 4). Sono evidenze su casi diversi, non una prova generale.
+- **Convergenza nuova (si affianca a quelle della §5.1).** Tre degli otto documenti (`chatel2026`, `avanzini2026`, `calcagnotto2026`) affermano in modo indipendente che il risultato economico dipende dalle regole di contabilizzazione, dal prezzo o dai coefficienti più che dalle metriche energetiche aggregate: «economic outputs are largely decoupled from energy performance» (`avanzini2026`, p. 15); le tariffe interne e il trattamento dei costi di rete incidono «sometimes more than the internal pricing rule itself» (`chatel2026`, p. 19); i KPI di comunità variano di decimi di punto fra i 16 modi mentre quelli individuali variano di molti punti (`calcagnotto2026`, mia lettura della Tab. 4). Sono evidenze su casi diversi, non una prova generale.
 - **Il gap di allineamento fra indicatori ha ora una fonte da rassegna.** `chatel2026` (p. 19) scrive che manca un'articolazione sistematica su come criteri tecnici e di benessere «interact or conflict»; vale come dichiarazione di stato dell'arte, non come misura.
 - **Regime ex-ante contro ex-post (nuovo asse di lettura).** In `calcagnotto2026` la regola (i coefficienti) determina la torta (OPT contro PTC danno `SCR_REC` diversi); nel regime italiano ex-post l'energia condivisa è fissata dalle misure e la regola ripartisce soltanto. Lo stesso vale per i VNM di `avanzini2026` (chiave statica). `[INFERENZA]` Questo conferma che le conclusioni sulla «forza incentivante» non si trasferiscono fra regimi senza adattamento.
 - **Quote per categoria di stakeholder.** `biancardi2026` è il primo documento del corpus a separare esplicitamente (i) la percentuale per categoria e (ii) la regola interna alla categoria, e a chiedere di svilupparle insieme (p. 12). `[INFERENZA]` Corrisponde alla struttura dei metodi ad albero già presenti (Cascading Tree), ma con pesi empirici.
 - **La regola che cambia la torta (nuovo).** `awerkin2026` mostra, in un modello stilizzato a due agenti, che la quota `β` determina quali equilibri di investimento emergono e se la REC si forma (pp. 36–37), cioè che la regola non è «mera redistribuzione» quando gli investimenti sono endogeni. Nel regime ex post con configurazione fisica fissa la torta non dipende dalla regola; i due punti di vista si completano.
 - **Affermazione non sostenuta (nuovo).** `dadamo2026` scrive che la ripartizione mirata è «more effective than uniform allocation approaches» (abstract), ma nel paper non c'è alcun scenario con ripartizione uniforme.
-- **Nessuna nuova contraddizione sulla classifica delle regole.** Nessuno dei sette confronta regole di teoria dei giochi su dati; la sezione 5.2 non cambia.
+- **Confronto fra nozioni di fairness (nuovo, il più vicino a RQ-1).** `couraud2025` mostra, per quattro meccanismi di mercato locale, che nessuno risponde a tutti i tipi di fairness: glass-filling con priorità è migliore su uguaglianza e min-max, pro-rata e doppia asta su meritocrazia, glass-filling semplice è un compromesso (p. 1, p. 5). È una conclusione letta da grafici radar, per meccanismi a prezzo uniforme, senza regole cooperative, stabilità, forza incentivante, concordanza numerica né variazione di taglia.
+- **Nessuna nuova contraddizione sulla classifica delle regole.** Nessuno degli otto (salvo `couraud2025`, che confronta meccanismi di mercato) confronta regole di teoria dei giochi su dati; la sezione 5.2 non cambia.
 
-### 9.3 Osservazioni numeriche e di coerenza sui sette documenti
+### 9.3 Osservazioni numeriche e di coerenza sugli otto documenti
 
 | Key | Osservazione (mia verifica) |
 |-----|-----------------------------|
@@ -274,9 +276,10 @@ Elenco delle discrepanze emerse nelle schede (di norma piccole e che non cambian
 | `thomopulos2026` | Eq. 16 usa il PUN con una costante zonale `k_z`, mentre gli altri documenti italiani del corpus usano il prezzo zonale orario; datazione ambigua (frontespizio 2027, DOI e data online 2026) |
 | `dadamo2026` | Testo p. 9: «6366.9 kWh» di autoconsumo per RSC2 contro 6.336,9 nella Tab. 5; la Tab. 2 etichetta 0,124 €/kWh come «Premium tariff + ARERA fee», ma il testo lo deriva come 0,120 + 0,004 senza la componente ARERA (circa 8 €/MWh a p. 4) |
 | `awerkin2026` | Titoli delle Sez. 5.3.1 e 5.3.4 non coerenti con il contenuto (c_h al posto di c_b; d al posto di σ_d); «g_h e g_b» ricalcolati dalla Tab. 2–3: coincidenti con la Tab. 4 |
+| `couraud2025` | La formula dell'indice meritocratico (Eq. 3, p. 4) moltiplica due energie (fattore finale `Ê_{−i}^t` invece del suo segno): dimensione kWh², probabile refuso; nessun valore numerico degli indicatori nel testo (solo grafici radar); sede di pubblicazione non indicata nel PDF |
 | `avanzini2026` | Somme di Tab. 7 verificate per tutte e sei le righe: nessuna incongruenza trovata |
 
 ### 9.4 Limiti dell'aggiornamento
-- Nessuna verifica online aggiuntiva per i sette documenti; la ricerca di competitori (B.3) resta quella della Fase 3.
+- Nessuna verifica online aggiuntiva per gli otto documenti; la ricerca di competitori (B.3) resta quella della Fase 3.
 - Figure non ispezionate (salvo Fig. 1–2 di `dadamo2026`); Tab. 5 di `calcagnotto2026` (ruotata) non letta; dimostrazioni in appendice di `awerkin2026` non verificate riga per riga.
 - I gap e le RQ della Fase 3 non sono stati riscritti; il registro dei future work è stato esteso a 61 righe (`output/gap_registro_fw.md`).

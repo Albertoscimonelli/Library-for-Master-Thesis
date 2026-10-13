@@ -71,8 +71,8 @@ La letteratura ha mostrato in modo assiomatico che, per le regole basate su prez
 
 ### A.5 Rischi, senza giri di parole
 
-1. **Couraud et al. 2025 (arXiv 2508.16819).** Dal riassunto web: 250 comunità generate a caso, regole di tipo glass-filling, double auction e pro-rata, risultato «the choice of distribution mechanism depends on whether a community prioritizes egalitarian or merit-based fairness», con un nuovo indicatore meritocratico. È un competitor parziale per (i). **Va letto per intero prima di scrivere «non è stato mostrato»**; la rete blocca arXiv, quindi serve che tu carichi il PDF.
-2. **Rodrigues 2026 (Utilities Policy) e Limmer 2023** (non letti): possibili sovrapposizioni su (ii) e sul confronto fra regole.
+1. **Couraud et al. 2025 (arXiv 2508.16819) — ora letto (scheda `couraud2025`).** Confronta 4 meccanismi di mercato locale a prezzo uniforme su 4 nozioni (uguaglianza, min-max, meritocratica, utilitaria) in 250 comunità da 20 membri e conclude che nessun meccanismo risponde a tutti i tipi di fairness (p. 5). Il test «il verdetto dipende dalla nozione» c'è quindi già, ma in forma grafica, senza regole cooperative, stabilità, forza incentivante, inclusione, concordanza numerica né variazione di taglia. La novità difendibile resta nei punti (b)–(d) di §A.3; la RQ (i) va presentata come estensione quantitativa, non come primo test.
+2. **Rodrigues 2026 e Limmer 2023:** esclusi per tua scelta; non letti, non citati nel V3.
 3. **Impossibilità proved solo per la famiglia price-based e a singolo slot.** Le tue misure sono analoghe, non identiche, alle proprietà P4 e P7 (K5 del memo precedente). Non scrivere «verifichiamo il teorema»: scrivi «quantifichiamo grandezze analoghe».
 4. **Circolarità.** Quasi ogni indicatore ha una regola campione per costruzione (README §7.0): riporta le perdite delle altre regole, non solo i vincitori.
 5. **Rischio «ovvio».** Che indicatori diversi discordino è atteso: il contributo è la struttura (dimensioni indipendenti, regole robuste, soglie di composizione), non il fatto.
